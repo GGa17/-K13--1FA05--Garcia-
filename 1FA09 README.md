@@ -12,13 +12,13 @@ just like the code below if I didn't use the math library it would take many mor
 
 
 import math
-
+# imports the math library
 x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
-
+# inputs the value of both x1 and y2
 x2 = float(input("Enter x2: "))
 y2 = float(input("Enter y2: "))
-
+# inputs the value of both x2 and y2
 distance = math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
-
+# Calculates the distance from x2 - x1 ^ 2 
 print("The distance between the two points is:", distance)
